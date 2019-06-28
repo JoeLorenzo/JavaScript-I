@@ -48,14 +48,9 @@ let subtract = (param1, param2) => param1 - param2;
 //   return num * 3;
 // });
 // console.log(triple);
-// Needs work
-// exampleArray = [1,2,3,4];
-// exampleArray.map(triple (num)=> {
-//   return num * 3;
-// });
-// console.log(triple);
-//
-//
-// elements.map(element => {
-//   return element.length;
-// });
+
+exampleArray = [1,2,3,4];
+triple = exampleArray.map( (num)=> {
+  return num * 3;
+});
+console.log(triple);
